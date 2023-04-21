@@ -1,5 +1,5 @@
 hello:
-	echo "this is my first command"
+	echo "Hello universe!"
 install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
