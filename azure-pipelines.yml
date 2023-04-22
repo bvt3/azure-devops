@@ -6,7 +6,10 @@
 trigger:
 - main
 
-pool: MyPool
+pool:
+  name: MyPool
+  demands:
+    - agent.name -equals MyPool
 
 steps:
 - script: echo Hello, world!
